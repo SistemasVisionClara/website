@@ -23,7 +23,7 @@ const App = () => {
         <Menu />
         <TopBanner />
         <Routes>
-          <Route path="/website" element={<Inicio />} />
+          <Route path="/" element={<Inicio />} />
           <Route path="/nosotros" element={<Nosotros />} />
           <Route path="/profesionales" element={<Profesionales />} />
           <Route path="/horarios" element={<Horarios />} />
