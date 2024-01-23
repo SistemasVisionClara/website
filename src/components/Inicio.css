@@ -1,0 +1,48 @@
+/* Inicio.css */
+.inicio-area {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .odd-row {
+    flex-direction: row-reverse;
+  }
+  
+  .even-row {
+    flex-direction: row-reverse;
+  }
+  
+  .picture,
+  .content {
+    width: 40%; /* Adjust the width as needed */
+  }
+  
+  .picture img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
+  .blue-title {
+    color: blue;
+  }
+  
+  .ver-mas-button {
+    background-color: white;
+    color: blue;
+    border: 1px solid blue;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  /* Center the content */
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  

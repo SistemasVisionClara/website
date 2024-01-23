@@ -1,0 +1,20 @@
+/* Menu.css */
+.menu {
+    background-color: #3498db; /* Default background color for the menu */
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+  }
+  
+  .menu-item {
+    color: white; /* Default text color for menu items */
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  /* Add a class for the selected menu item */
+  .menu-item.selected {
+    background-color: #4842ed; /* Darker blue background for the selected item */
+  }
+  

@@ -1,0 +1,20 @@
+/* Nosotros.css */
+.nosotros-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0 20%;
+  }
+  
+  .blue-title {
+    color: blue;
+    font-size: 32px;
+    font-weight: bold;
+  }
+  
+  .text-container {
+    width: 100%; /* Takes full width */
+    max-width: 600px; /* Adjust the maximum width as needed */
+  }
+  

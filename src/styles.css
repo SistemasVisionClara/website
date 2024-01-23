@@ -1,0 +1,22 @@
+/* styles.css */
+body {
+    margin: 0;
+    padding-top: 120px; /* Adjust as needed based on your banner and menu height */
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  /* Add any global styles or resets as needed */
+  
+  /* You can also add styles directly to individual components */
+  .top-banner {
+    /* Add styles for the top banner */
+  }
+  
+  .menu {
+    /* Add styles for the menu */
+  }
+  
