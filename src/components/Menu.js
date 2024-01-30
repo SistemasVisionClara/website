@@ -1,16 +1,10 @@
 // Menu.js
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 const Menu = () => {
   const [isSticky, setIsSticky] = useState(false);
-  // State to track the selected menu item
-  const [selectedItem, setSelectedItem] = useState(null);
-  
-  // Function to handle item selection
-  const handleItemClick = (item) => {
-    setSelectedItem(item);
-  };
+
 
   useEffect(() => {
     const handleScroll = () => {
@@ -45,7 +39,7 @@ const Menu = () => {
 
   return (
     <div className="menu" style={menuStyle}>
-      <Link to="/" className={`menu-item ${selectedItem === 'inicio' ? 'selected' : ''}`} style={linkStyle}>INICIO</Link>
+      <NavLink to="/" className="menu-item" activeClassName="selected" style={linkStyle}>INICIO</NavLink>
       <Link to="/nosotros" style={linkStyle}>NOSOTROS</Link>
       <Link to="/profesionales" style={linkStyle}>PROFESIONALES</Link>
       <Link to="/horarios" style={linkStyle}>HORARIOS</Link>

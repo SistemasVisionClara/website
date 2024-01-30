@@ -34,10 +34,11 @@ const ContactInfoArea = () => {
         ></iframe>
       </div>
       <div>
-        <h2>Contact Information</h2>
-        <p>Address: Vuelta de Obligado 2890, C1429AVB CABA, Argentina</p>
-        <p>Phone: Your Phone Number</p>
-        <p>Email: Your Email Address</p>
+        <h2>Contacto</h2>
+        <p><b>Dirección:</b> Vuelta de Obligado 2890 6"A", C1429AVB CABA, Argentina</p>
+        <p><b>TE:</b> 11-3602-0083</p>
+        <p><b>Turnos Whastapp:</b> 11-2010-6330</p>
+        <p><b>Email:</b> secretaria@visionclara.net</p>
       </div>
     </div>
   );

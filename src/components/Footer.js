@@ -11,12 +11,13 @@ const Footer = () => {
   return (
     <div className="footer" style={footerStyle}>
       <p>
-        Address: Vuelta de Obligado 2890, C1429AVB CABA, Argentina<br />
-        Phone: Your Phone Number<br />
-        Email: Your Email Address
+        <p><b>Dirección:</b> Vuelta de Obligado 2890 6"A", C1429AVB CABA, Argentina</p>
+        <p><b>TE:</b> 11-3602-0083</p>
+        <p><b>Turnos Whastapp:</b> 11-2010-6330</p>
+        <p><b>Email:</b> secretaria@visionclara.net</p>
       </p>
       <p>
-        &copy; {new Date().getFullYear()} Your Company Name. All Rights Reserved.
+        &copy; {new Date().getFullYear()} Visión Clara. Todos los derechos reservados.
       </p>
     </div>
   );

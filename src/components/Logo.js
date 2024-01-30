@@ -1,7 +1,7 @@
 // Logo.js
 import React from 'react';
 import './Logo.css'; // Import the Logo styles
-import Banner from '../images/banner.png'
+import Banner from '../images/banner.jpeg'
 
 const Logo = () => {
   return (

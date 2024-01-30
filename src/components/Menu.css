@@ -15,6 +15,7 @@
   
   /* Add a class for the selected menu item */
   .menu-item.selected {
-    background-color: #4842ed; /* Darker blue background for the selected item */
+    background-color: #2980b9;
+    color: white; /* Ensure text color is white for selected item */
   }
   
