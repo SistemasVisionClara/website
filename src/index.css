@@ -11,3 +11,63 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* Add a class for the selected menu item */
+.menu-item.active {
+  text-decoration: none;
+  color: #AFFFFA;
+  background-color: #3498db97;
+  padding: 10px;
+  width: 100%;
+  }
+
+.menu-item {
+  color: white; /* Default text color for menu items */
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  width: 100%;
+}
+
+.whatsapp{
+  position: 'fixed';
+  right: '0%';
+  bottom: '0%';
+  font-size: '18px';
+  padding: '25px';
+  margin: '10px';
+  background-color: '#25d366';
+  color: 'white';
+  border-radius: '50%';
+  border: '2px solid #fff';
+  cursor: pointer;
+}
+
+.whatsapp:hover{
+  box-shadow: .3px 1px 6px .7px #25d366;
+}
+
+/* ESTILOS de Tarjetas */
+
+.profesional-style{
+  background-color: #f8f8f8;
+  border-radius: 25px;
+  padding: 50px;
+  margin: 15px;
+  width: 400px;
+  
+}
+
+.os-style{
+  background-color: #f6f6f6;
+  border-radius: 25px;
+  padding: 30px;
+  margin: 15px;
+  width: 300px;
+  text-align: center;
+}
+
+.os-style:hover{
+   cursor: pointer;
+   box-shadow: .3px 1px 6px 7px #f2f2f2;
+}

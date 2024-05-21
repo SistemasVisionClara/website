@@ -11,9 +11,9 @@ import Estudios from './components/Estudios';
 import OSYPrepagas from './components/OSYPrepagas';
 import InfoPacientes from './components/InfoPacientes';
 import Contacto from './components/Contacto';
-import ContactInfoArea from './components/ContactInfoArea';
 import Footer from './components/Footer';
 import Logo from './components/Logo';
+import WhatsApp from './components/WhatsApp';
 
 const App = () => {
   return (
@@ -32,7 +32,7 @@ const App = () => {
           <Route path="/info-pacientes" element={<InfoPacientes />} />
           <Route path="/contacto" element={<Contacto />} />
         </Routes>
-        <ContactInfoArea />
+        <WhatsApp/>
         <Footer />
       </div>
     </Router>

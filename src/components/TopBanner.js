@@ -2,8 +2,9 @@ import React from 'react';
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import './TopBanner.css';
-import Carousel1 from "../images/carrousel1.png"
-import Carousel2 from "../images/carrousel2.png"
+import Carousel1 from "../images/carrousel2.png"
+import Carousel2 from "../images/inicio2.png"
+import Carousel3 from "../images/inicio3.png"
 
 const TopBanner = () => {
   return (
@@ -12,16 +13,22 @@ const TopBanner = () => {
         <div>
           <img src={Carousel1} alt=" 1" />
           <div className="carousel-overlay">
-            <h2>Informacion importante!</h2>
+            <h4>Turnos disponibles al WhatsApp</h4>
           </div>
         </div>
         <div>
-          <img src={Carousel2} alt=" 2" />
+          <img src={Carousel2}  alt='asd'/>
           <div className="carousel-overlay">
-            <h2>Maximize su visita</h2>
+            <h2>50% de descuento ahora con PAMI</h2>
           </div>
         </div>
-        {/* Add placeholders for other carousel items */}
+        <div>
+          <img src={Carousel3} alt=","/>
+          <div className="carousel-overlay">
+            <h2>Atendemos todas las prepagas</h2>
+          </div>
+        </div>
+
       </Carousel>
     </div>
   );

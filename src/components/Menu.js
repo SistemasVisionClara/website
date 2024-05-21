@@ -4,6 +4,7 @@ import { Link, NavLink } from 'react-router-dom';
 
 const Menu = () => {
   const [isSticky, setIsSticky] = useState(false);
+  const [isHover, setIsHover] = useState(false);
 
 
   useEffect(() => {
@@ -18,35 +19,56 @@ const Menu = () => {
       window.removeEventListener('scroll', handleScroll);
     };
   }, []);
+  
+
+
+  const handleMouseEnter = () => {
+    setIsHover(true);
+ };
+ 
+ const handleMouseLeave = () => {
+    setIsHover(false);
+ };
 
   const menuStyle = {
-    backgroundColor: '#007BFF', // Blue background
+    backgroundColor: '#007BCF', // Blue background
     color: 'white', // White text
-    padding: '10px',
+    padding: '0',
     display: 'flex',
     justifyContent: 'space-evenly',
     position: isSticky ? 'fixed' : 'relative',
-    top: isSticky ? '80px' : '0',
+    top: isSticky ? '100px' : '0',
     left: 0,
     width: '100%',
     zIndex: 1000,
+    
+    
   };
+
 
   const linkStyle = {
     textDecoration: 'none', // Remove underline
-    color: 'white', // White text color
+    color: '#ffffff' , // White text 
+    
+    
   };
 
+
+  //        const onHover ={
+    //        onMouseEnter:{handleMouseEnter},
+      //      onMouseLeave:{handleMouseLeave}
+        //  }
+
   return (
-    <div className="menu" style={menuStyle}>
-      <NavLink to="/" className="menu-item" activeClassName="selected" style={linkStyle}>INICIO</NavLink>
-      <Link to="/nosotros" style={linkStyle}>NOSOTROS</Link>
-      <Link to="/profesionales" style={linkStyle}>PROFESIONALES</Link>
-      <Link to="/horarios" style={linkStyle}>HORARIOS</Link>
-      <Link to="/estudios" style={linkStyle}>ESTUDIOS</Link>
-      <Link to="/os-prepagas" style={linkStyle}>O.S Y PREPAGAS</Link>
-      <Link to="/info-pacientes" style={linkStyle}>INFO PACIENTES</Link>
-      <Link to="/contacto" style={linkStyle}>CONTACTO</Link>
+    <div className="menu" style={menuStyle} >
+      <NavLink exact to="/" className="menu-item">INICIO</NavLink>
+      <NavLink exact to="/nosotros" className="menu-item">NOSOTROS</NavLink>
+      <NavLink exact to="/profesionales"  className="menu-item">PROFESIONALES</NavLink>
+      <NavLink exact to="/horarios"  className="menu-item">HORARIOS</NavLink>
+      <NavLink exact to="/estudios"  className="menu-item">ESTUDIOS</NavLink>
+      <NavLink exact to="/os-prepagas"  className="menu-item">O.S Y PREPAGAS</NavLink>
+      <NavLink exact to="/info-pacientes" className="menu-item">INFO PACIENTES</NavLink>
+      <NavLink exact to="/contacto"  className="menu-item">CONTACTO</NavLink>
     </div>
   );
 }

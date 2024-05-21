@@ -6,16 +6,10 @@
     padding: 10px;
   }
   
-  .menu-item {
-    color: white; /* Default text color for menu items */
-    text-decoration: none;
-    padding: 5px 10px;
-    border-radius: 5px;
-  }
   
-  /* Add a class for the selected menu item */
-  .menu-item.selected {
-    background-color: #2980b9;
-    color: white; /* Ensure text color is white for selected item */
-  }
+
+  
+  
+  
+
   

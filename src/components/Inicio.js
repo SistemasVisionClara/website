@@ -7,6 +7,7 @@ import inicio1 from '../images/inicio1.png'
 import inicio2 from '../images/inicio2.png'
 import inicio3 from '../images/inicio3.png'
 import inicio4 from '../images/inicio4.png'
+import ContactInfoArea from '../components/ContactInfoArea';
 
 const Inicio = () => {
 
@@ -23,8 +24,27 @@ const Inicio = () => {
     setIsModalOpen(false);
   };
 
+  const contactInfoStyle = {
+    display: 'flex',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    padding: '20px',
+    backgroundColor: '#eeeeee', // Light gray background
+  };
+
+  const mapContainerStyle = {
+    flexBasis: '50%',
+    height: '300px',
+    border: '1px solid #ddd',
+    borderRadius: '5px',
+    marginRight: '20px',
+  };
+
+  
+
   return (
-    <div>
+    <>
+    <div className='p'>
       {/* Area 1 */}
       <div className="inicio-area odd-row">
         <div className="picture">
@@ -32,28 +52,34 @@ const Inicio = () => {
           <img src={inicio1} alt=" 1" />
         </div>
         <div className="content">
-          <h2 className="blue-title">Title 1</h2>
-          <p>Text for area 1 goes here.
-          Text for area 1 goes here.
-          Text for area 1 goes here.
-          Text for area 1 goes here.Text for area 1 goes here.
-          Text for area 1 goes here.</p>
+          <h2 className="title">¡Bienvenido al consultorio Oftalmológico Visión Clara!</h2>
+          <p className='p'>
+            En nuestro centro dedicado al cuidado de la salud visual, nos enorgullece ofrecer servicios oftalmológicos de excelencia.
+             Con un equipo de especialistas altamente calificados y tecnología de punta, estamos comprometidos en brindarte la mejor atención 
+             para cuidar de tu visión y mejorar tu calidad de vida.<br/>
+          </p>
           <button className="ver-mas-button" onClick={openModal}>Ver más</button>
         </div>
       </div>
 
       {/* Area 2 */}
-      <div className="inicio-area even-row">
+        <div className="inicio-area even-row">
         <div className="content">
-          <h2 className="blue-title">Title 2</h2>
-          <p>Text for area 2 goes here.</p>
+          <h2 className="title">¿Quienes somos?</h2>
+          <p className='p'>
+            Como líderes en oftalmología en la ciudad de Buenos Aires, nuestro equipo de especialistas altamente calificados 
+            se compromete a proporcionarte una atención integral y personalizada. Desde exámenes de la vista hasta tratamientos avanzados,
+             estamos aquí para ayudarte a mantener una visión clara y saludable en cada etapa de tu vida. Con tecnología de vanguardia 
+             y un enfoque centrado en el paciente, en Visión Clara tu vista está en buenas manos.
+          </p>
           <button className="ver-mas-button" onClick={openModal}>Ver más</button>
-        </div>
+         </div>
         <div className="picture">
           {/* Generic placeholder image with max width of 150px */}
           <img src={inicio3} alt=" 2" />
         </div>
       </div>
+      
 
       {/* Area 3 */}
       <div className="inicio-area odd-row">
@@ -62,8 +88,10 @@ const Inicio = () => {
           <img src={inicio2} alt=" 3" />
         </div>
         <div className="content">
-          <h2 className="blue-title">Title 3</h2>
-          <p>Text for area 3 goes here.</p>
+          <h2 className="title">Todos los estudios</h2>
+          <p className='p'>Ofrecemos servicios oftalmológicos completos en nuestras instalaciones, incluyendo exámenes de refracción, 
+            tonometría, pruebas de agudeza visual, examen del fondo de ojo y evaluaciones de motilidad ocular.
+             Nuestro enfoque es brindar cuidado integral y personalizado para preservar la salud visual de nuestros pacientes.</p>
           <button className="ver-mas-button" onClick={openModal}>Ver más</button>
         </div>
       </div>
@@ -71,8 +99,10 @@ const Inicio = () => {
       {/* Area 4 */}
       <div className="inicio-area even-row">
         <div className="content">
-          <h2 className="blue-title">Title 4</h2>
-          <p>Text for area 4 goes here.</p>
+          <h2 className="title">50% de descuento con PAMI</h2>
+          <p className='p'>¡Oferta especial para afiliados de PAMI! Obtén un descuento del 50% en todos nuestros servicios oftalmológicos en tu próxima 
+            visita al consultorio. Cuidamos tu salud visual con atención integral y personalizada. 
+            ¡Llama ahora para reservar tu cita y aprovechar esta increíble oferta!</p>
           <button className="ver-mas-button" onClick={openModal}>Ver más</button>
         </div>
         <div className="picture">
@@ -84,7 +114,13 @@ const Inicio = () => {
       {/* Modal Window */}
       {isModalOpen && <Modal closeModal={closeModal} />}
     </div>
+
+    <ContactInfoArea />
+
+    </>
   );
+ 
 }
+
 
 export default Inicio;

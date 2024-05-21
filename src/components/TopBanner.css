@@ -18,15 +18,16 @@
   
   .carousel-overlay {
     position: absolute;
-    top: 20px;
+    top: 180px;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    color: white;
+    font-size: 80px;
+    color: #fafafa;
   }
   
   .carousel-overlay h2 {
-    font-size: 24px;
+    font-size: 70px;
     font-weight: bold;
   }
   

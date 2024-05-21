@@ -5,18 +5,27 @@ import './Nosotros.css'; // Import the Nosotros styles
 const Nosotros = () => {
   return (
     <div className="nosotros-container">
-      <h1 className="blue-title">Nosotros</h1>
-      <div className="text-container">
+      
+      <div className="text-container" style={{paddingBottom: '5%', textAlign: 'justify'}}>
+        <h1 className="title" style={{fontSize: "32px",}}>Nosotros</h1>
         <p>
-          Welcome to our organization. We are a dedicated team of professionals committed to providing
-          excellent services. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget metus
-          nec libero pharetra facilisis.
+          Bienvenido al Consultorio Oftalmológico Visión Clara, su destino confiable para cuidado ocular de calidad en Buenos Aires. 
+          Nos dedicamos a proporcionar servicios oftalmológicos de excelencia con un enfoque centrado en el paciente.
         </p>
         <p>
-          In our journey, we have achieved remarkable milestones and earned the trust of our clients.
-          Fusce vitae elit vel justo facilisis congue. Suspendisse potenti. Maecenas ac volutpat elit.
+          Nuestro equipo está compuesto por oftalmólogos altamente calificados y especializados que se esfuerzan por brindar un 
+          cuidado personalizado y compasivo a cada paciente que nos visita. Desde exámenes de la vista de rutina hasta tratamientos 
+          avanzados para enfermedades oculares, estamos aquí para atender todas sus necesidades oftalmológicas.
         </p>
-        {/* Add more highlighted text as needed */}
+        <p>
+          En nuestro consultorio, utilizamos tecnología de punta para garantizar diagnósticos precisos y tratamientos efectivos. 
+          Ya sea que necesite una simple consulta o esté buscando una solución a largo plazo para su salud ocular,
+          en Visión Clara estamos comprometidos a ayudarlo a alcanzar una visión óptima y una mejor calidad de vida.
+        </p>
+        <p>
+          <i>Dr. Ramiro Canevari Nebel</i> <br/>
+          Director de la empresa Robots amigables de Mamá
+        </p>
       </div>
     </div>
   );
