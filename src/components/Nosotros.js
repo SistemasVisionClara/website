@@ -23,8 +23,8 @@ const Nosotros = () => {
           en Visión Clara estamos comprometidos a ayudarlo a alcanzar una visión óptima y una mejor calidad de vida.
         </p>
         <p>
-          <i>Dr. Ramiro Canevari Nebel</i> <br/>
-          Director de la empresa Robots amigables de Mamá
+          <i>Dra. Maria Victoria Gopcevich</i> <br/>
+          
         </p>
       </div>
     </div>

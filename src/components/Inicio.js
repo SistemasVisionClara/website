@@ -24,27 +24,9 @@ const Inicio = () => {
     setIsModalOpen(false);
   };
 
-  const contactInfoStyle = {
-    display: 'flex',
-    justifyContent: 'space-between',
-    alignItems: 'center',
-    padding: '20px',
-    backgroundColor: '#eeeeee', // Light gray background
-  };
-
-  const mapContainerStyle = {
-    flexBasis: '50%',
-    height: '300px',
-    border: '1px solid #ddd',
-    borderRadius: '5px',
-    marginRight: '20px',
-  };
-
-  
-
   return (
     <>
-    <div className='p'>
+    
       {/* Area 1 */}
       <div className="inicio-area odd-row">
         <div className="picture">
@@ -64,6 +46,9 @@ const Inicio = () => {
 
       {/* Area 2 */}
         <div className="inicio-area even-row">
+        <div className="picture">
+          <img src={inicio3} alt=" 2" />
+        </div>
         <div className="content">
           <h2 className="title">¿Quienes somos?</h2>
           <p className='p'>
@@ -74,10 +59,6 @@ const Inicio = () => {
           </p>
           <button className="ver-mas-button" onClick={openModal}>Ver más</button>
          </div>
-        <div className="picture">
-          {/* Generic placeholder image with max width of 150px */}
-          <img src={inicio3} alt=" 2" />
-        </div>
       </div>
       
 
@@ -98,6 +79,10 @@ const Inicio = () => {
 
       {/* Area 4 */}
       <div className="inicio-area even-row">
+        <div className="picture">
+          {/* Generic placeholder image with max width of 150px */}
+          <img src={inicio4} alt=" 4" />
+        </div>
         <div className="content">
           <h2 className="title">50% de descuento con PAMI</h2>
           <p className='p'>¡Oferta especial para afiliados de PAMI! Obtén un descuento del 50% en todos nuestros servicios oftalmológicos en tu próxima 
@@ -105,15 +90,11 @@ const Inicio = () => {
             ¡Llama ahora para reservar tu cita y aprovechar esta increíble oferta!</p>
           <button className="ver-mas-button" onClick={openModal}>Ver más</button>
         </div>
-        <div className="picture">
-          {/* Generic placeholder image with max width of 150px */}
-          <img src={inicio4} alt=" 4" />
-        </div>
       </div>
 
       {/* Modal Window */}
       {isModalOpen && <Modal closeModal={closeModal} />}
-    </div>
+    
 
     <ContactInfoArea />
 

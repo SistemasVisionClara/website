@@ -7,14 +7,14 @@
     padding: 5% 20%;
   }
   
-  .blue-title {
-    color: blue;
-    font-size: 32px;
-    font-weight: bold;
-  }
-  
   .text-container {
     width: 100%; /* Takes full width */
     max-width: 600px; /* Adjust the maximum width as needed */
   }
   
+  @media (max-width: 768px){
+    .nosotros-container{
+      padding: 10%;
+    }
+
+  }

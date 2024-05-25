@@ -9,14 +9,74 @@ body {
     -moz-osx-font-smoothing: grayscale;
   }
   
-  /* Add any global styles or resets as needed */
+
+  /* HAMBURGUER MENU */
   
-  /* You can also add styles directly to individual components */
-  .top-banner {
-    /* Add styles for the top banner */
+  @media (max-width: 768px ) {
+    .hamburguer{
+      width: 60px;
+      margin: 10px;
+      cursor: pointer;
+    }
+
+    .menu-item{
+      display: none;
+    }
+
+    .menu{
+      color: #007BCF;
+      position: sticky;
+      top: 90px;
+      background-color: white;
+      z-index: 100;
+      
+    }
+    
+      /* MENU-ITEM for Mobile */
+  .menu-items-show{
+    display: flex !important;
+    background-color: white !important;
+    margin: 5px;
+    justify-content: center;
+    font-size: 40px;
+    color:#3498db97 !important;
+
+  }
+
+  .menu-items-show:hover{
+    font-size: 41px;
+    color: #007BCF31 !important;
+  }
+
+  
+  .carousel-overlay h2{
+    font-size: 40px !important;
+    width: 400px;
+
+    
+  }
+
   }
   
-  .menu {
-    /* Add styles for the menu */
+  @media (min-width: 768px ) {
+    .hamburguer{
+      display: none;
+    }
+
+    .menu{
+      background-color: #007BCF;
+      color: white;
+      padding: 0;
+      display: flex;
+      justify-content: space-evenly;
+      position: fixed;
+      top: 100px;
+      left: 0;
+      width: 100%;
+      z-index: 1000;
+    }
+    
   }
+
+  
   

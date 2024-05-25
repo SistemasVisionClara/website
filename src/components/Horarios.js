@@ -14,6 +14,7 @@ const Horarios = () => {
   };
 
   return (
+    
     <div style={{display:'flex', justifyContent:'center'}}>
      
       <div style={textContainer}>
@@ -22,7 +23,7 @@ const Horarios = () => {
               <button className="turnos-online">Turnos ONLINE</button>
           </div>
 
-      <h2 className='title'>Horarios</h2>
+      <h2 className='title horarios'>Horarios</h2>
 
         <p>
           Lunes a Viernes: 8 a 20.30hs.<br/> 

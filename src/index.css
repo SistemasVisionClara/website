@@ -12,7 +12,7 @@ code {
     monospace;
 }
 
-/* Add a class for the selected menu item */
+
 .menu-item.active {
   text-decoration: none;
   color: #AFFFFA;
@@ -22,7 +22,7 @@ code {
   }
 
 .menu-item {
-  color: white; /* Default text color for menu items */
+  color: white; 
   text-align: center;
   padding: 10px;
   text-decoration: none;
@@ -70,4 +70,19 @@ code {
 .os-style:hover{
    cursor: pointer;
    box-shadow: .3px 1px 6px 7px #f2f2f2;
+}
+
+/* HAMBURGUER'S MENU */
+
+.visible {
+  position: sticky;
+  z-index: 100;
+  height: 745px;
+}
+
+
+.horariosDiv {
+  display:'flex';
+  justify-content:'center';
+
 }

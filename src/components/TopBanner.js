@@ -13,7 +13,7 @@ const TopBanner = () => {
         <div>
           <img src={Carousel1} alt=" 1" />
           <div className="carousel-overlay">
-            <h4>Turnos disponibles al WhatsApp</h4>
+            <h2>Turnos disponibles al WhatsApp</h2>
           </div>
         </div>
         <div>

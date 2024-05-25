@@ -5,7 +5,7 @@ const OSYPrepagas = () => {
 
   const ejemplo = [{
     name : "OSDE",
-    img : "https://upload.wikimedia.org/wikipedia/commons/1/18/Logo_OSDE_2020.png",
+    img : "https://raw.githubusercontent.com/SistemasVisionClara/website/main/src/images/pami.jpg",
     description: " Únicamente turnos programados. Se atienden todos los planes de Swiss Medical y Docthos excepto Docthos Básico. Hay planes con copago." 
     
   },{
@@ -44,7 +44,7 @@ const OSYPrepagas = () => {
         <h2 className='title' style={{margin:'42px'}}>Obra Social y Prepagas </h2>
         <div style={prof_container} >
          
-        {(ejemplo.map(e => Tarjetas(e)))}
+        {(ejemplo.map((e, k) => Tarjetas(e, k)))}
   
       </div>
   

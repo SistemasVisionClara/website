@@ -1,6 +1,5 @@
 import React from 'react';
 import ContactInfoArea from './ContactInfoArea';
-import { FaBeer } from "react-icons/fa";
 
 const Contacto = () => {
 
@@ -34,10 +33,9 @@ const Contacto = () => {
         <p>Estación Congreso de Tucuman, linea D, en Av. Congreso y Av. Cabildo.</p>
         <h4>Tren</h4>
         <p>Estación Nuñez del tren Mitre, a 10 cuadras del consultorio.</p>
-        <p></p>
         <h4>Colectivos</h4>
         <p>Metrobús y lineas 133, 59, 60, 168, 184, 29, 57, 41, 169, 152, 194</p>
-        <FaBeer />
+        
       
     </div>
 

@@ -22,21 +22,14 @@ const Profesionales = () => {
 
   return (
 
-    <div style={{margin:"6%"}}>
+    <div>
 
     
-      <h2 className='title' style={{margin:'42px'}}>Profesionales</h2>
+      <h2 className='title'> NUESTRO EQUIPO PROFESIONAL</h2>
       <div style={prof_container} >
 
       {Tarjetas(ejemplo)}
       
-      {Tarjetas(ejemplo)}
-      
-      {Tarjetas(ejemplo)}
-      
-      {Tarjetas(ejemplo)}
-      
-      {Tarjetas(ejemplo)}
 
     </div>
 

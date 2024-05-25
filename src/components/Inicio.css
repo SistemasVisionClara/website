@@ -1,10 +1,8 @@
 /* Inicio.css */
 .inicio-area {
-    height: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 20px;
   }
   
   .odd-row {
@@ -12,7 +10,7 @@
   }
   
   .even-row {
-    flex-direction: row-reverse;
+    flex-direction: row;
   }
   
   .picture,
@@ -78,3 +76,40 @@
     background-color: #007BCF;
     color: white;
   }
+
+
+  /* MEDIA QUERIES */
+
+  @media (max-width: 768px) {
+    .inicio-area { 
+      flex-direction: column;
+      width: 100%; 
+
+     }
+     
+     .title{
+      width: 400px;
+      text-align: center;
+     }
+     .picture{
+      margin-top: 25px;
+      width: 85%;
+     }
+    
+    .content{
+      width: 90%;
+      margin-bottom: 15px;
+    }
+
+    .turnos-online{
+      position: absolute;
+      top: 550px;
+      right: 20px;
+    }
+
+    .horarios{
+      text-align: start;
+    }
+
+   } 
+   

@@ -1,76 +1,54 @@
-// Menu.js
-import React, { useState, useEffect } from 'react';
-import { Link, NavLink } from 'react-router-dom';
+import React from 'react';
+import {  NavLink } from 'react-router-dom';
 
 const Menu = () => {
-  const [isSticky, setIsSticky] = useState(false);
-  const [isHover, setIsHover] = useState(false);
+  //Shows Menu when hamburguer its called
+  const menuDisplay = () =>{  
+    const div = document.getElementsByClassName("menu");
+      div[0].classList.toggle("visible");
+      
+  const menuArr = Array.from(document.getElementsByClassName('menu-item'))
+    for (let i = 0; i < menuArr.length; i++) {
+      menuArr[i].classList.toggle("menu-items-show")
 
+      
+    }
 
-  useEffect(() => {
-    const handleScroll = () => {
-      const scrollPosition = window.scrollY;
-      setIsSticky(scrollPosition > 0);
-    };
+  }
 
-    window.addEventListener('scroll', handleScroll);
+  // Close Menu when any <NavLink> its called
+  const closeMenu = () =>{
+  const menuArr = Array.from(document.getElementsByClassName('menu-item'))  
+  const div = document.getElementsByClassName("menu")
 
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
-  }, []);
-  
+  if(window.innerWidth <= 768){
+  div[0].classList.toggle("visible")
 
-
-  const handleMouseEnter = () => {
-    setIsHover(true);
- };
- 
- const handleMouseLeave = () => {
-    setIsHover(false);
- };
-
-  const menuStyle = {
-    backgroundColor: '#007BCF', // Blue background
-    color: 'white', // White text
-    padding: '0',
-    display: 'flex',
-    justifyContent: 'space-evenly',
-    position: isSticky ? 'fixed' : 'relative',
-    top: isSticky ? '100px' : '0',
-    left: 0,
-    width: '100%',
-    zIndex: 1000,
+  for (let i = 0; i < menuArr.length; i++) {
+  menuArr[i].classList.toggle("menu-items-show")
     
-    
-  };
-
-
-  const linkStyle = {
-    textDecoration: 'none', // Remove underline
-    color: '#ffffff' , // White text 
-    
-    
-  };
-
-
-  //        const onHover ={
-    //        onMouseEnter:{handleMouseEnter},
-      //      onMouseLeave:{handleMouseLeave}
-        //  }
+      }
+    }
+  }
 
   return (
-    <div className="menu" style={menuStyle} >
-      <NavLink exact to="/" className="menu-item">INICIO</NavLink>
-      <NavLink exact to="/nosotros" className="menu-item">NOSOTROS</NavLink>
-      <NavLink exact to="/profesionales"  className="menu-item">PROFESIONALES</NavLink>
-      <NavLink exact to="/horarios"  className="menu-item">HORARIOS</NavLink>
-      <NavLink exact to="/estudios"  className="menu-item">ESTUDIOS</NavLink>
-      <NavLink exact to="/os-prepagas"  className="menu-item">O.S Y PREPAGAS</NavLink>
-      <NavLink exact to="/info-pacientes" className="menu-item">INFO PACIENTES</NavLink>
-      <NavLink exact to="/contacto"  className="menu-item">CONTACTO</NavLink>
+    <div className="menu"  >
+
+      <svg onClick={menuDisplay} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="hamburguer">
+          <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+      </svg>
+
+      <NavLink  id="menu" to="/" className="menu-item" onClick={closeMenu}>INICIO</NavLink>
+      <NavLink  to="/nosotros" className="menu-item" onClick={closeMenu}>NOSOTROS</NavLink>
+      <NavLink  to="/profesionales"  className="menu-item" onClick={closeMenu}>PROFESIONALES</NavLink>
+      <NavLink  to="/horarios"  className="menu-item" onClick={closeMenu}>HORARIOS</NavLink>
+      <NavLink  to="/estudios"  className="menu-item" onClick={closeMenu}>ESTUDIOS</NavLink>
+      <NavLink  to="/os-prepagas"  className="menu-item" onClick={closeMenu}>O.S Y PREPAGAS</NavLink>
+      <NavLink  to="/info-pacientes" className="menu-item" onClick={closeMenu}>INFO PACIENTES</NavLink>
+      <NavLink  to="/contacto"  className="menu-item" onClick={closeMenu}>CONTACTO</NavLink>
     </div>
   );
 }
+
 
 export default Menu;
