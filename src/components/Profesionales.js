@@ -2,9 +2,9 @@ import React from 'react';
 import Tarjetas from './Tarjetas';
 
 const ejemplo = {
-  name : "Luis Alberto Spinetta",
+  name : "Cuerpo profesional compuesto de los doctores:",
   img : "",
-  description: "lore impsumlore impsumlore impsumlore impsumlore impsumlore impsumlore impsumlore impsumlore impsumlore impsumlore impsumlore impsumlore impsumlore impsumlore impsumlore impsum" 
+  description: "ALLEGRONE, Julieta. BANCHERO, Francisco. BELLANI, Florencia. DUARTE, Ana. FERRERE, Magdalena. GOPCEVICH, María Victoria. GOPCEVICH, Mike. MERCAU, Santiago. TERAN, Agustín. VOLOCH, Rita." 
   
 }
 
@@ -23,12 +23,11 @@ const Profesionales = () => {
   return (
 
     <div>
-
-    
-      <h2 className='title'> NUESTRO EQUIPO PROFESIONAL</h2>
+      <h2  className='title prof-title'> NUESTRO EQUIPO PROFESIONAL</h2>
+      <h3 style={{ marginLeft:'50px', color:'#4a4a4a'}} > Un equipo de profesionales a cargo de los más de 30 años de experiencia de la Dra. Maria Victoria Gopcevich</h3>
       <div style={prof_container} >
 
-      {Tarjetas(ejemplo)}
+      {Tarjetas(ejemplo, '100%')}
       
 
     </div>

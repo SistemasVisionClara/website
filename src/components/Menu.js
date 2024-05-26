@@ -31,6 +31,18 @@ const Menu = () => {
     }
   }
 
+  // Close Menu when screen width is over 768px
+
+  const widthScreenChages = () =>{
+  const menu = document.getElementsByClassName("menu");
+
+  if (menu[0].className === "menu visible")
+    menu[0].classList.toggle("visible")
+
+  }
+
+  window.addEventListener("resize", widthScreenChages)
+
   return (
     <div className="menu"  >
 

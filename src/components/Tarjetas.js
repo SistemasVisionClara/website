@@ -1,10 +1,6 @@
 import React from "react";
 
 const Tarjetas = (prop, k) => {
-
-
-
-
   if (prop.img.length > 1 ){
 
     return(
@@ -20,11 +16,9 @@ const Tarjetas = (prop, k) => {
 
 
   } else{
-    console.log(prop.img)
-    console.log("no esta andando")
     return(
       
-      <div className='profesional-style'>
+      <div className='profesional-style' style={{width: "90%"}}>
         <h3>{prop.name} </h3>
         <p>{prop.description} </p>
       </div>

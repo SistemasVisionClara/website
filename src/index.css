@@ -74,10 +74,14 @@ code {
 
 /* HAMBURGUER'S MENU */
 
+
+
+
 .visible {
   position: sticky;
   z-index: 100;
-  height: 745px;
+  min-height: 100%;
+  height: 900px;
 }
 
 
