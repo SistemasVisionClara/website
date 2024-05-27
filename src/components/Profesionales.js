@@ -27,7 +27,7 @@ const Profesionales = () => {
       <h3 style={{ marginLeft:'50px', color:'#4a4a4a'}} > Un equipo de profesionales a cargo de los más de 30 años de experiencia de la Dra. Maria Victoria Gopcevich</h3>
       <div style={prof_container} >
 
-      {Tarjetas(ejemplo, '100%')}
+      {Tarjetas(ejemplo)}
       
 
     </div>
