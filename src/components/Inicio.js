@@ -1,28 +1,15 @@
 // Inicio.js
-import React, { useState } from 'react';
-import Modal from './Modal'; // Import the Modal component (to be created)
-import './Modal.css'; // Import the Modal styles
+import React from 'react';
 import './Inicio.css'; // Import the Inicio styles
-import inicio1 from '../images/inicio1.png'
-import inicio2 from '../images/inicio2.png'
-import inicio3 from '../images/inicio3.png'
-import inicio4 from '../images/inicio4.png'
+import inicio1 from '../images/mom-daughter-trying-glasses-optometrist.jpg'
+import inicio2 from '../images/Oraculo.png'
+import inicio3 from '../images/old-man-standing-gray-backround-with-his-granddaughter.jpg'
+import inicio4 from '../images/closeup-person-s-beautiful-brown-eye.jpg'
 import ContactInfoArea from '../components/ContactInfoArea';
+import { Link } from 'react-router-dom';
 
 const Inicio = () => {
 
-  // State to track whether the modal is open or closed
-  const [isModalOpen, setIsModalOpen] = useState(false);
-
-  // Function to open the modal
-  const openModal = () => {
-    setIsModalOpen(true);
-  };
-
-  // Function to close the modal
-  const closeModal = () => {
-    setIsModalOpen(false);
-  };
 
   return (
     <>
@@ -40,14 +27,13 @@ const Inicio = () => {
              Con un equipo de especialistas altamente calificados y tecnología de punta, estamos comprometidos en brindarte la mejor atención 
              para cuidar de tu visión y mejorar tu calidad de vida.<br/>
           </p>
-          <button className="ver-mas-button" onClick={openModal}>Ver más</button>
         </div>
       </div>
 
       {/* Area 2 */}
         <div className="inicio-area even-row">
         <div className="picture">
-          <img src={inicio3} alt=" 2" />
+          <img  src={inicio3} alt=" 2" />
         </div>
         <div className="content">
           <h2 className="title">¿Quienes somos?</h2>
@@ -57,7 +43,9 @@ const Inicio = () => {
              estamos aquí para ayudarte a mantener una visión clara y saludable en cada etapa de tu vida. Con tecnología de vanguardia 
              y un enfoque centrado en el paciente, en Visión Clara tu vista está en buenas manos.
           </p>
-          <button className="ver-mas-button" onClick={openModal}>Ver más</button>
+          <Link to="/nosotros">
+          <button className="ver-mas-button" >Ver más</button>
+          </Link>
          </div>
       </div>
       
@@ -73,7 +61,9 @@ const Inicio = () => {
           <p className='p'>Ofrecemos servicios oftalmológicos completos en nuestras instalaciones, incluyendo exámenes de refracción, 
             tonometría, pruebas de agudeza visual, examen del fondo de ojo y evaluaciones de motilidad ocular.
              Nuestro enfoque es brindar cuidado integral y personalizado para preservar la salud visual de nuestros pacientes.</p>
-          <button className="ver-mas-button" onClick={openModal}>Ver más</button>
+             <Link to="/estudios">
+          <button className="ver-mas-button" >Ver más</button>
+          </Link>
         </div>
       </div>
 
@@ -88,12 +78,11 @@ const Inicio = () => {
           <p className='p'>¡Oferta especial para afiliados de PAMI! Obtén un descuento del 50% en todos nuestros servicios oftalmológicos en tu próxima 
             visita al consultorio. Cuidamos tu salud visual con atención integral y personalizada. 
             ¡Llama ahora para reservar tu cita y aprovechar esta increíble oferta!</p>
-          <button className="ver-mas-button" onClick={openModal}>Ver más</button>
+            <Link to="/os-prepagas">
+          <button className="ver-mas-button" >Ver más</button>
+          </Link>
         </div>
       </div>
-
-      {/* Modal Window */}
-      {isModalOpen && <Modal closeModal={closeModal} />}
     
 
     <ContactInfoArea />

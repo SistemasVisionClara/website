@@ -8,7 +8,7 @@ const WhatsApp = () =>{
         position: 'fixed',
         right: '0%',
         bottom: '0%',
-        fontSize: '18px',
+        fontSize: '14px',
         padding: '25px',
         margin: '10px',
         backgroundColor: '#25d366',

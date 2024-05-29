@@ -17,7 +17,7 @@ const Contacto = () => {
     <div style={container} >
       
       <div style={{margin: '0 55px', width:'300px'}}>
-      <h2 className='title' style={{padding:''}}>Contacto</h2>
+      <h2 className='title'>Contacto</h2>
         <h4>Dirección</h4>
         <p>Vuelta de Obligado 2890 6"A", C1429AVB CABA, Argentina</p>
         <h4>Teléfono</h4>
@@ -28,7 +28,7 @@ const Contacto = () => {
       </div>
 
     <div style={{margin: '0 55px', width:'300px'}}>
-    <h2 className='title' style={{padding:''}}>Como llegar</h2>
+    <h2 className='title' >Como llegar</h2>
         <h4>Subte</h4>
         <p>Estación Congreso de Tucuman, linea D, en Av. Congreso y Av. Cabildo.</p>
         <h4>Tren</h4>
@@ -39,7 +39,7 @@ const Contacto = () => {
       
     </div>
 
-    <button className="ver-mas-button" style={{margin: '100px 200px 0 ' ,width: '30%'}}>Consultas al WHATSAPP</button>
+    <button className="consultas-whatsapp" >Consultas al WHATSAPP</button>
     
     </div>
     <ContactInfoArea />

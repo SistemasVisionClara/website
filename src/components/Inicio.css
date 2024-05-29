@@ -38,6 +38,23 @@
     cursor: pointer;
   }
 
+  .consultas-whatsapp {
+    background-color: white;
+    width: 30%;
+    font-size: 16px;
+    color: #007BCF;
+    border: 1px solid #007BCF;
+    border-radius: 45px;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin: 100px 200px 0  ;
+  }
+
+  .consultas-whatsapp:hover {
+    background-color: #007BCF;
+    color: white;
+  }
+
   .ver-mas-button:hover {
     background-color: #007BCF;
     color: white;
@@ -77,6 +94,20 @@
     color: white;
   }
 
+   .divContainer {
+    background-color: #fcfcfc;
+    padding: 20px;
+    margin: 10px;
+    text-align: justify;
+    color: #242527;
+  }
+
+  .divContainer:hover {
+    background-image: linear-gradient(to right, #f6f6f6, #f7f7f7);
+    box-shadow: .3px 2px 6px .7px #fafafa;
+
+  }
+
 
   /* MEDIA QUERIES */
 
@@ -86,6 +117,7 @@
       width: 100%; 
 
      }
+
      
      .title{
       width: 400px;
@@ -102,13 +134,18 @@
     }
 
     .turnos-online{
+      font-size: 14px !important;
       position: absolute;
-      right: 30px;
+      right: 10px;
     }
 
     .horarios{
       text-align: start;
     }
 
+    .consultas-whatsapp{
+      width: 100% !important;
+      margin: 50px 0;
+    }
    } 
    
