@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.9c58bef1.chunk.css",
-    "main.js": "/static/js/main.00e99f40.chunk.js",
-    "main.js.map": "/static/js/main.00e99f40.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.ae2eb291.js",
-    "runtime-main.js.map": "/static/js/runtime-main.ae2eb291.js.map",
+    "main.js": "/static/js/main.beaabc7c.chunk.js",
+    "main.js.map": "/static/js/main.beaabc7c.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.1da37978.js",
+    "runtime-main.js.map": "/static/js/runtime-main.1da37978.js.map",
     "static/css/2.fe62fa80.chunk.css": "/static/css/2.fe62fa80.chunk.css",
     "static/js/2.0a2bfc7b.chunk.js": "/static/js/2.0a2bfc7b.chunk.js",
     "static/js/2.0a2bfc7b.chunk.js.map": "/static/js/2.0a2bfc7b.chunk.js.map",
-    "static/js/3.68e36f30.chunk.js": "/static/js/3.68e36f30.chunk.js",
-    "static/js/3.68e36f30.chunk.js.map": "/static/js/3.68e36f30.chunk.js.map",
+    "static/js/3.28d75866.chunk.js": "/static/js/3.28d75866.chunk.js",
+    "static/js/3.28d75866.chunk.js.map": "/static/js/3.28d75866.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.fb9af637e0ffd9eeb74b2549a408b236.js": "/precache-manifest.fb9af637e0ffd9eeb74b2549a408b236.js",
+    "precache-manifest.2ab7f8a3e0b15a60ee82b84dee6988ba.js": "/precache-manifest.2ab7f8a3e0b15a60ee82b84dee6988ba.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.fe62fa80.chunk.css.map": "/static/css/2.fe62fa80.chunk.css.map",
     "static/css/main.9c58bef1.chunk.css.map": "/static/css/main.9c58bef1.chunk.css.map",
@@ -20,7 +20,6 @@
     "static/media/banner.jpeg": "/static/media/banner.29e1dc59.jpeg",
     "static/media/beautiful-teenage-woman-covering-one-eye-with-her-hand.jpg": "/static/media/beautiful-teenage-woman-covering-one-eye-with-her-hand.31160d03.jpg",
     "static/media/closeup-person-s-beautiful-brown-eye.jpg": "/static/media/closeup-person-s-beautiful-brown-eye.2b52fab0.jpg",
-    "static/media/dra-julieta-allegrone.jpg": "/static/media/dra-julieta-allegrone.e82cadd6.jpg",
     "static/media/mom-daughter-trying-glasses-optometrist.jpg": "/static/media/mom-daughter-trying-glasses-optometrist.323b1b7e.jpg",
     "static/media/old-man-standing-gray-backround-with-his-granddaughter.jpg": "/static/media/old-man-standing-gray-backround-with-his-granddaughter.f650e3a6.jpg",
     "static/media/omint.png": "/static/media/omint.9f13000c.png",
@@ -28,10 +27,10 @@
     "static/media/side-view-woman-getting-her-eyes-checked.jpg": "/static/media/side-view-woman-getting-her-eyes-checked.0246bc9a.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.ae2eb291.js",
+    "static/js/runtime-main.1da37978.js",
     "static/css/2.fe62fa80.chunk.css",
     "static/js/2.0a2bfc7b.chunk.js",
     "static/css/main.9c58bef1.chunk.css",
-    "static/js/main.00e99f40.chunk.js"
+    "static/js/main.beaabc7c.chunk.js"
   ]
 }
