@@ -7,8 +7,11 @@ import inicio3 from '../images/old-man-standing-gray-backround-with-his-granddau
 import inicio4 from '../images/closeup-person-s-beautiful-brown-eye.jpg'
 import ContactInfoArea from '../components/ContactInfoArea';
 import { Link } from 'react-router-dom';
+import useTitle from './useTitle';
 
 const Inicio = () => {
+
+  useTitle({title : "Inicio"})
 
 
   return (

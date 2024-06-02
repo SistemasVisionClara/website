@@ -1,5 +1,6 @@
 import React from 'react';
 import ContactInfoArea from './ContactInfoArea';
+import useTitle from './useTitle';
 
 const Contacto = () => {
 
@@ -11,6 +12,7 @@ const Contacto = () => {
     
     }
 
+  useTitle({title : "Contacto"})
   return (
 <>
     

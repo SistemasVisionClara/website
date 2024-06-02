@@ -4,10 +4,11 @@ import Omint from '../images/omint.png';
 import Osde from '../images/osde.png';
 import Sancor from '../images/sancor.png';
 import Pami from '../images/pami.jpg'
+import useTitle from './useTitle';
 
 const OSYPrepagas = () => {
 
-  const ejemplo = [{
+  const oys = [{
     name : "OSDE",
     img : Osde,
     description: "Únicamente turnos programados. Se atienden todos los planes de Swiss Medical y Docthos excepto Docthos Básico. Hay planes con copago." 
@@ -46,7 +47,8 @@ const OSYPrepagas = () => {
   
   }
 
-    
+  
+  useTitle({title: "Obra Social y Prepagas"})
 
     return (
   
@@ -54,9 +56,11 @@ const OSYPrepagas = () => {
   
       
         <h2 className='title' style={{margin:'42px'}}>Obra Social y Prepagas </h2>
+        <p className='p'> Enorme abanico de opciones, tanto con diversas obras sociales y prepagas, como metodos de financiamiento, para que puedas atenderte y cuidar tu salud.<br/>
+        Ante cualquier duda no dejes de comunicarte con nosotros. Más información en la pestaña CONTACTO</p>
         <div style={prof_container} >
          
-        {(ejemplo.map((e, k) => Tarjetas(e, k)))}
+        {(oys.map((e, k) => Tarjetas(e, k)))}
   
       </div>
   

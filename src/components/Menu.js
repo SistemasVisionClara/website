@@ -52,11 +52,9 @@ const Menu = () => {
 
       <NavLink  id="menu" to="/" className="menu-item" onClick={closeMenu}>INICIO</NavLink>
       <NavLink  to="/nosotros" className="menu-item" onClick={closeMenu}>NOSOTROS</NavLink>
-      <NavLink  to="/profesionales"  className="menu-item" onClick={closeMenu}>PROFESIONALES</NavLink>
       <NavLink  to="/horarios"  className="menu-item" onClick={closeMenu}>HORARIOS</NavLink>
       <NavLink  to="/estudios"  className="menu-item" onClick={closeMenu}>ESTUDIOS</NavLink>
       <NavLink  to="/os-prepagas"  className="menu-item" onClick={closeMenu}>O.S Y PREPAGAS</NavLink>
-      <NavLink  to="/info-pacientes" className="menu-item" onClick={closeMenu}>INFO PACIENTES</NavLink>
       <NavLink  to="/contacto"  className="menu-item" onClick={closeMenu}>CONTACTO</NavLink>
     </div>
   );

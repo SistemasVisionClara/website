@@ -1,28 +1,31 @@
 // Nosotros.js
 import React from 'react';
 import './Nosotros.css'; // Import the Nosotros styles
+import useTitle from './useTitle';
 
 const Nosotros = () => {
+  useTitle({title: "Nosotros"})
+  
   return (
     <div className="nosotros-container">
       
       <div className="text-container" style={{paddingBottom: '5%', textAlign: 'justify'}}>
-        <h1 className="title" style={{fontSize: "32px",}}>Nosotros</h1>
-        <p>
+        <h1 className="title">Nosotros</h1>
+        <p className='p'>
           Bienvenido al Consultorio Oftalmológico Visión Clara, su destino confiable para cuidado ocular de calidad en Buenos Aires. 
           Nos dedicamos a proporcionar servicios oftalmológicos de excelencia con un enfoque centrado en el paciente.
         </p>
-        <p>
+        <p className='p'>
           Nuestro equipo está compuesto por oftalmólogos altamente calificados y especializados que se esfuerzan por brindar un 
           cuidado personalizado y compasivo a cada paciente que nos visita. Desde exámenes de la vista de rutina hasta tratamientos 
           avanzados para enfermedades oculares, estamos aquí para atender todas sus necesidades oftalmológicas.
         </p>
-        <p>
+        <p className='p'>
           En nuestro consultorio, utilizamos tecnología de punta para garantizar diagnósticos precisos y tratamientos efectivos. 
           Ya sea que necesite una simple consulta o esté buscando una solución a largo plazo para su salud ocular,
           en Visión Clara estamos comprometidos a ayudarlo a alcanzar una visión óptima y una mejor calidad de vida.
         </p>
-        <p>
+        <p className='p'>
           <i>Dra. Maria Victoria Gopcevich</i> <br/>
           
         </p>
