@@ -5,7 +5,6 @@ import TopBanner from './components/TopBanner';
 import Menu from './components/Menu';
 import Inicio from './components/Inicio';
 import Nosotros from './components/Nosotros';
-import Profesionales from './components/Profesionales';
 import Horarios from './components/Horarios';
 import Estudios from './components/Estudios';
 import OSYPrepagas from './components/OSYPrepagas';

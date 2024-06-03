@@ -11,19 +11,19 @@ const TopBanner = () => {
     <div className="banner-carousel">
       <Carousel showThumbs={false} showStatus={false} infiniteLoop autoPlay interval={3000}>
         <div>
-          <img  className="carousel-image" src={Carousel1} alt=" Free image downloaded from Freepick.com" />
+          <img  className="carousel-image" src={Carousel1} alt=" Free copyrights downloaded from Freepick.com" />
           <div className="carousel-overlay">
             <h2>Turnos disponibles al WhatsApp</h2>
           </div>
         </div>
         <div>
-          <img src={Carousel2} className="carousel-image" alt='Free image downloaded from Freepick.com'/>
+          <img src={Carousel2} className="carousel-image" alt='Free copyrights downloaded from Freepick.com'/>
           <div className="carousel-overlay">
             <h2>50% de descuento PAMI con reembolso</h2>
           </div>
         </div>
         <div>
-          <img style={{filter:"blur(.5px)"}} src={Carousel3} alt="Free image downloaded from Freepick.com"className="carousel-image" />
+          <img style={{filter:"blur(.5px)"}} src={Carousel3} alt="Free copyrights downloaded from Freepick.com"className="carousel-image" />
           <div className="carousel-overlay">
             <h2>Atendemos todas las prepagas con reembolso</h2>
           </div>

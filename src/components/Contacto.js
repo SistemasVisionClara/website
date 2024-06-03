@@ -1,6 +1,6 @@
 import React from 'react';
 import ContactInfoArea from './ContactInfoArea';
-import useTitle from './useTitle';
+import useTitle from './useSEO';
 
 const Contacto = () => {
 
@@ -11,8 +11,8 @@ const Contacto = () => {
       justifyContent: 'center',
     
     }
-
-  useTitle({title : "Contacto"})
+    const title = "Contacto"
+    useTitle({title : `${title}`, description: `Página de ${title} del consultorio Oftalmologico Vision Clara`})
   return (
 <>
     

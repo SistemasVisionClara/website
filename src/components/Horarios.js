@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import useTitle from './useTitle';
+import useTitle from './useSEO';
 
 
 const Horarios = () => {
@@ -16,7 +16,8 @@ const Horarios = () => {
   };
 
 
-  useTitle({title: "Horarios"})
+  const title = "Horarios"
+  useTitle({title : `${title}`, description: `Página de ${title} del consultorio Oftalmologico Vision Clara`})
 
   return (
     

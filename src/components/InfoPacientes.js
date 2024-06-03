@@ -1,5 +1,5 @@
 import React from 'react';
-import useTitle from './useTitle';
+import useTitle from './useSEO';
 
 const InfoPacientes = () => {
   useTitle({title : "Información para Pacientes"})

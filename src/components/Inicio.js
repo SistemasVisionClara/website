@@ -7,11 +7,12 @@ import inicio3 from '../images/old-man-standing-gray-backround-with-his-granddau
 import inicio4 from '../images/closeup-person-s-beautiful-brown-eye.jpg'
 import ContactInfoArea from '../components/ContactInfoArea';
 import { Link } from 'react-router-dom';
-import useTitle from './useTitle';
+import useTitle from './useSEO';
 
 const Inicio = () => {
-
-  useTitle({title : "Inicio"})
+  
+  const title = "Inicio"
+  useTitle({title : `${title}`, description: `Página de ${title} del consultorio Oftalmologico Vision Clara`})
 
 
   return (
@@ -21,22 +22,22 @@ const Inicio = () => {
       <div className="inicio-area odd-row">
         <div className="picture">
           {/* Generic placeholder image with max width of 150px */}
-          <img src={inicio1} alt=" 1" />
+          <img src={inicio1} alt="Free copyright downloaded from Freepic of a Child with glasses" />
         </div>
         <div className="content">
-          <h2 className="title">¡Bienvenido al consultorio Oftalmológico Visión Clara!</h2>
+          <h1 className="title">¡Bienvenido al consultorio Oftalmológico Visión Clara!</h1>
           <p className='p'>
-            En nuestro centro dedicado al cuidado de la salud visual, nos enorgullece ofrecer servicios oftalmológicos de excelencia.
+              Clínica oftalmológica de gran experiencia quirúrgica y altísimo nivel de equipamiento.
+              En nuestro centro dedicado al cuidado de la salud visual, nos enorgullece ofrecer servicios oftalmológicos de excelencia.
              Con un equipo de especialistas altamente calificados y tecnología de punta, estamos comprometidos en brindarte la mejor atención 
-             para cuidar de tu visión y mejorar tu calidad de vida.<br/>
+             para cuidar de tu visión y mejorar tu calidad de vida.  Cirugías oftalmológicas, tratamientos y todos los estudios para tu salud visual.<br/>
           </p>
         </div>
       </div>
 
-      {/* Area 2 */}
         <div className="inicio-area even-row">
         <div className="picture">
-          <img  src={inicio3} alt=" 2" />
+          <img  src={inicio3} alt="Free copyright from Freepic of a old man trying glasses" />
         </div>
         <div className="content">
           <h2 className="title">¿Quienes somos?</h2>
@@ -53,11 +54,9 @@ const Inicio = () => {
       </div>
       
 
-      {/* Area 3 */}
-      <div className="inicio-area odd-row">
+    <div className="inicio-area odd-row">
         <div className="picture">
-          {/* Generic placeholder image with max width of 150px */}
-          <img src={inicio2} alt=" 3" />
+          <img src={inicio2} alt="Free copyright from Freepic of a hand taking some glasses" />
         </div>
         <div className="content">
           <h2 className="title">Todos los estudios</h2>
@@ -70,11 +69,9 @@ const Inicio = () => {
         </div>
       </div>
 
-      {/* Area 4 */}
       <div className="inicio-area even-row">
         <div className="picture">
-          {/* Generic placeholder image with max width of 150px */}
-          <img src={inicio4} alt=" 4" />
+          <img src={inicio4} alt="Free copyright eye from Freepic" />
         </div>
         <div className="content">
           <h2 className="title">50% de descuento con PAMI</h2>

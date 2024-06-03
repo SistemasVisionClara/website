@@ -4,7 +4,7 @@ import Omint from '../images/omint.png';
 import Osde from '../images/osde.png';
 import Sancor from '../images/sancor.png';
 import Pami from '../images/pami.jpg'
-import useTitle from './useTitle';
+import useTitle from './useSEO';
 
 const OSYPrepagas = () => {
 
@@ -48,7 +48,8 @@ const OSYPrepagas = () => {
   }
 
   
-  useTitle({title: "Obra Social y Prepagas"})
+  const title = "Obra Social y Prepagas"
+  useTitle({title : `${title}`, description: `Página de ${title} del consultorio Oftalmologico Vision Clara`})
 
     return (
   

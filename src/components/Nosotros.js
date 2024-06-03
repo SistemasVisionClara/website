@@ -1,10 +1,12 @@
 // Nosotros.js
 import React from 'react';
 import './Nosotros.css'; // Import the Nosotros styles
-import useTitle from './useTitle';
+import useTitle from './useSEO';
 
 const Nosotros = () => {
-  useTitle({title: "Nosotros"})
+
+  const title = "Nosotros"
+  useTitle({title : `${title}`, description: `Página de ${title} del consultorio Oftalmologico Vision Clara`})
   
   return (
     <div className="nosotros-container">
@@ -12,7 +14,7 @@ const Nosotros = () => {
       <div className="text-container" style={{paddingBottom: '5%', textAlign: 'justify'}}>
         <h1 className="title">Nosotros</h1>
         <p className='p'>
-          Bienvenido al Consultorio Oftalmológico Visión Clara, su destino confiable para cuidado ocular de calidad en Buenos Aires. 
+          Bienvenido al Consultorio Oftalmológico Visión Clara, su destino confiable para un cuidado ocular de calidad en Buenos Aires. 
           Nos dedicamos a proporcionar servicios oftalmológicos de excelencia con un enfoque centrado en el paciente.
         </p>
         <p className='p'>
@@ -21,7 +23,7 @@ const Nosotros = () => {
           avanzados para enfermedades oculares, estamos aquí para atender todas sus necesidades oftalmológicas.
         </p>
         <p className='p'>
-          En nuestro consultorio, utilizamos tecnología de punta para garantizar diagnósticos precisos y tratamientos efectivos. 
+          En nuestra Clínica oftalmológica ubicada en Belgrano (Buenos Aires, Argentina) utilizamos tecnología de punta para garantizar diagnósticos precisos y tratamientos efectivos. 
           Ya sea que necesite una simple consulta o esté buscando una solución a largo plazo para su salud ocular,
           en Visión Clara estamos comprometidos a ayudarlo a alcanzar una visión óptima y una mejor calidad de vida.
         </p>

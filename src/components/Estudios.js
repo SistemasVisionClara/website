@@ -1,5 +1,5 @@
 import React from 'react';
-import useTitle from './useTitle';
+import useTitle from './useSEO';
 
 const Estudios = () => {
 
@@ -17,7 +17,8 @@ const Estudios = () => {
 
   }
 
-  useTitle({title : "Estudios"})
+  const title = "Estudios"
+  useTitle({title : `${title}`, description: `Página de ${title} del consultorio Oftalmologico Vision Clara`})
 
   return (
     <div style={container}>
