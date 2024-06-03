@@ -13,8 +13,13 @@ import Contacto from './components/Contacto';
 import Footer from './components/Footer';
 import Logo from './components/Logo';
 import WhatsApp from './components/WhatsApp';
+import HangInThere from './images/hanginthere.jpg'
 
 const App = () => {
+  let a = 1;
+  let b = 2;
+
+  if (a == b){
   return (
     <Router>
       <div>
@@ -35,6 +40,18 @@ const App = () => {
       </div>
     </Router>
   );
+} else {
+  return(
+    <>
+    <h1 style={{textAlign: 'center'}}>ACTUALMENTE NO SE ENCUENTRA DISPONIBLE ESTA PÁGINA</h1>
+    <div style={{display: 'flex', justifyContent: 'center'}}>
+    
+    <img src={HangInThere} />
+    </div>
+    </>
+  )
+}
+
 }
 
 export default App;
