@@ -4,18 +4,6 @@ import useTitle from './useSEO';
 
 
 const Horarios = () => {
-
-
-  const textContainer = {
-    padding: '15%',
-    paddingTop: '5%',
-    paddingBottom: '10%',
-    width: '50%',
-    
-    
-  };
-
-
   const title = "Horarios"
   useTitle({title : `${title}`, description: `Página de ${title} del consultorio Oftalmologico Vision Clara`})
 
@@ -23,7 +11,7 @@ const Horarios = () => {
     
     <div style={{display:'flex', justifyContent:'center'}}>
      
-      <div style={textContainer}>
+      <div className='hor-container'>
 
       <div style={{float: 'right'}}>
         <      Link to='https://wa.me/541120106330' target="_blank">

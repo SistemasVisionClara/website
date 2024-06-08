@@ -20,6 +20,14 @@ body {
 
    }
 
+   .hor-container  {
+    padding: 15%;
+    padding-top: 5%;
+    padding-bottom: 10%;
+    width: 50%; 
+  
+  }
+
   /* HAMBURGUER MENU */
   
   @media (max-width: 768px ) {
@@ -76,6 +84,14 @@ body {
     top: 0  ;
 
    }
+
+   .hor-container  {
+    padding: 0;
+    padding-top: 5%;
+    padding-bottom: 10%;
+    width: 100%; 
+  
+  }
 
   }
   

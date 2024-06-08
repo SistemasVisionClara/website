@@ -5,18 +5,20 @@ import Osde from '../images/osde.png';
 import Sancor from '../images/sancor.png';
 import Pami from '../images/pami.jpg'
 import useTitle from './useSEO';
+import Particles from '../images/anonimo.webp'
 
 const OSYPrepagas = () => {
 
   const oys = [{
     name : "OSDE",
     img : Osde,
-    description: "Únicamente turnos programados. Se atienden todos los planes de Swiss Medical y Docthos excepto Docthos Básico. Hay planes con copago." 
+    description: "Podes sacar turno desde la página de OSDE haciendo CLICK acá." ,
+    a: "https://www.osde.com.ar/index1.html#!osde-cartilla-detalle-prestador.html?planId=21&especialidadId=146&filialId=60&centroMedicoId=37&numeroPrestadorId=6670&especialidadNombre=Oftalmolog%C3%ADa&miCartillaOpen=0&desdeMisTurnos=false&secuencia=101&turnos=1"
     
   },{
     name: "Swis Medical",
     img: "https://cacofar.org/wp-content/uploads/2016/10/SwissMedical.png",
-    description:"Trabajamos Swis Medical unícamente con reintegro."
+    description:"Trabajamos Swis Medical cubriendo la totalidad de la atención."
   },
   {
     name : "Medifé",
@@ -26,15 +28,19 @@ const OSYPrepagas = () => {
   },{
     name: "OMINT",
     img: Omint,
-    description:" Únicamente turnos programados. Se atienden todos los planes de OMINT. Hay planes con copago. "
+    description:"Se atienden todos los planes de OMINT."
   }, {
     name: "Sancor",
     img: Sancor,
     description: "Cubrimos todos los planes y tambíen la posibilidad de reintegro."
   } , {
-    name: "PAMI",
+    name: "PAMI y otras Obras Sociales",
     img: Pami,
-    description: "Hasta un 50% de descuento trabajando unicamente atraves de reintegro."
+    description: "Trabajamos unicamente atraves de reintegro."
+  }, {
+    name: "Particulares",
+    img: Particles,
+    description: "Podes consultar los metodos de atención y consideraciones que ofrecemos para atención particular comunicandote con nosotros."
   }]
   
   
@@ -53,7 +59,7 @@ const OSYPrepagas = () => {
 
     return (
   
-      <div style={{margin:"6%"}}>
+      <div >
   
       
         <h2 className='title' style={{margin:'42px'}}>Obra Social y Prepagas </h2>

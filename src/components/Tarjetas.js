@@ -5,11 +5,13 @@ const Tarjetas = (prop, k) => {
 
     return(
       <div className="os-style" key={k}>
+        <a href={prop.a} target="blank" style={{textDecoration: 'none', color:'black'}}>
         <div style={{display:'flex', justifyContent:'center'}}>
         <img width={220} src={prop.img} alt=" algo " />
         </div>
         <h3> {prop.name} </h3>
         <p> {prop.description} </p>
+        </a>
       </div>
 
     )
