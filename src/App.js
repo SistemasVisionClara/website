@@ -16,7 +16,7 @@ import WhatsApp from './components/WhatsApp';
 import HangInThere from './images/hanginthere.jpg'
 
 const App = () => {
-  let a = 1;
+  let a = 2;
   let b = 2;
 
   if (a == b){
