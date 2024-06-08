@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.9c58bef1.chunk.css",
-    "main.js": "/static/js/main.8069f6d0.chunk.js",
-    "main.js.map": "/static/js/main.8069f6d0.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.ae2eb291.js",
-    "runtime-main.js.map": "/static/js/runtime-main.ae2eb291.js.map",
+    "main.css": "/static/css/main.94f7b092.chunk.css",
+    "main.js": "/static/js/main.10f9c436.chunk.js",
+    "main.js.map": "/static/js/main.10f9c436.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.1d6f4e82.js",
+    "runtime-main.js.map": "/static/js/runtime-main.1d6f4e82.js.map",
     "static/css/2.fe62fa80.chunk.css": "/static/css/2.fe62fa80.chunk.css",
-    "static/js/2.9a7a9663.chunk.js": "/static/js/2.9a7a9663.chunk.js",
-    "static/js/2.9a7a9663.chunk.js.map": "/static/js/2.9a7a9663.chunk.js.map",
-    "static/js/3.68e36f30.chunk.js": "/static/js/3.68e36f30.chunk.js",
-    "static/js/3.68e36f30.chunk.js.map": "/static/js/3.68e36f30.chunk.js.map",
+    "static/js/2.f5ed9143.chunk.js": "/static/js/2.f5ed9143.chunk.js",
+    "static/js/2.f5ed9143.chunk.js.map": "/static/js/2.f5ed9143.chunk.js.map",
+    "static/js/3.a8c0ce9a.chunk.js": "/static/js/3.a8c0ce9a.chunk.js",
+    "static/js/3.a8c0ce9a.chunk.js.map": "/static/js/3.a8c0ce9a.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.39c6fe34a617740c9224c86cedb2e4d1.js": "/precache-manifest.39c6fe34a617740c9224c86cedb2e4d1.js",
+    "precache-manifest.c07d5f35ecbfda3a00967638ad6178db.js": "/precache-manifest.c07d5f35ecbfda3a00967638ad6178db.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.fe62fa80.chunk.css.map": "/static/css/2.fe62fa80.chunk.css.map",
-    "static/css/main.9c58bef1.chunk.css.map": "/static/css/main.9c58bef1.chunk.css.map",
-    "static/js/2.9a7a9663.chunk.js.LICENSE.txt": "/static/js/2.9a7a9663.chunk.js.LICENSE.txt",
+    "static/css/main.94f7b092.chunk.css.map": "/static/css/main.94f7b092.chunk.css.map",
+    "static/js/2.f5ed9143.chunk.js.LICENSE.txt": "/static/js/2.f5ed9143.chunk.js.LICENSE.txt",
     "static/media/Oraculo.png": "/static/media/Oraculo.2cc7b1c9.png",
+    "static/media/anonimo.webp": "/static/media/anonimo.f26323d4.webp",
     "static/media/banner.jpeg": "/static/media/banner.29e1dc59.jpeg",
     "static/media/beautiful-teenage-woman-covering-one-eye-with-her-hand.jpg": "/static/media/beautiful-teenage-woman-covering-one-eye-with-her-hand.31160d03.jpg",
     "static/media/closeup-person-s-beautiful-brown-eye.jpg": "/static/media/closeup-person-s-beautiful-brown-eye.2b52fab0.jpg",
@@ -28,10 +29,10 @@
     "static/media/side-view-woman-getting-her-eyes-checked.jpg": "/static/media/side-view-woman-getting-her-eyes-checked.0246bc9a.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.ae2eb291.js",
+    "static/js/runtime-main.1d6f4e82.js",
     "static/css/2.fe62fa80.chunk.css",
-    "static/js/2.9a7a9663.chunk.js",
-    "static/css/main.9c58bef1.chunk.css",
-    "static/js/main.8069f6d0.chunk.js"
+    "static/js/2.f5ed9143.chunk.js",
+    "static/css/main.94f7b092.chunk.css",
+    "static/js/main.10f9c436.chunk.js"
   ]
 }
