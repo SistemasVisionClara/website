@@ -74,7 +74,7 @@ const Inicio = () => {
           <img src={inicio4} alt="Free copyright eye from Freepic" />
         </div>
         <div className="content">
-          <h2 className="title">atención a todas las prepagas</h2>
+          <h2 className="title">Atención a todas las prepagas</h2>
           <p className='p'>¿Necesitas una consulta inmediata? ¡Estamos aquí para ti! En nuestro consultorio, ofrecemos servicios de calidad con atención personalizada.
              Lo mejor de todo es que aceptamos todos los medios de pago en el momento. Puedes abonar con tarjeta de crédito, débito o efectivo.
             Además, si tienes una obra social, no te preocupes. Gestionamos el reintegro por ti. Solo trae tus datos y la documentación necesaria, y nosotros nos encargamos del resto.
