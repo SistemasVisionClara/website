@@ -74,10 +74,13 @@ const Inicio = () => {
           <img src={inicio4} alt="Free copyright eye from Freepic" />
         </div>
         <div className="content">
-          <h2 className="title">50% de descuento con PAMI</h2>
-          <p className='p'>¡Oferta especial para afiliados de PAMI! Obtén un descuento del 50% en todos nuestros servicios oftalmológicos en tu próxima 
-            visita al consultorio. Cuidamos tu salud visual con atención integral y personalizada. 
-            ¡Llama ahora para reservar tu cita y aprovechar esta increíble oferta!</p>
+          <h2 className="title">atención a todas las prepagas</h2>
+          <p className='p'>¿Necesitas una consulta inmediata? ¡Estamos aquí para ti! En nuestro consultorio, ofrecemos servicios de calidad con atención personalizada.
+             Lo mejor de todo es que aceptamos todos los medios de pago en el momento. Puedes abonar con tarjeta de crédito, débito o efectivo.
+            Además, si tienes una obra social, no te preocupes. Gestionamos el reintegro por ti. Solo trae tus datos y la documentación necesaria, y nosotros nos encargamos del resto.
+
+            Ven y cuida tu vista con profesionales altamente capacitados. ¡Te esperamos!
+          </p>
             <Link to="/os-prepagas">
           <button className="ver-mas-button" >Ver más</button>
           </Link>
