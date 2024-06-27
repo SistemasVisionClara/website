@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/static/css/main.94f7b092.chunk.css",
-    "main.js": "/static/js/main.72ad3b80.chunk.js",
-    "main.js.map": "/static/js/main.72ad3b80.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.ae2eb291.js",
-    "runtime-main.js.map": "/static/js/runtime-main.ae2eb291.js.map",
+    "main.js": "/static/js/main.4d537a60.chunk.js",
+    "main.js.map": "/static/js/main.4d537a60.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.b4e2279c.js",
+    "runtime-main.js.map": "/static/js/runtime-main.b4e2279c.js.map",
     "static/css/2.fe62fa80.chunk.css": "/static/css/2.fe62fa80.chunk.css",
-    "static/js/2.9a7a9663.chunk.js": "/static/js/2.9a7a9663.chunk.js",
-    "static/js/2.9a7a9663.chunk.js.map": "/static/js/2.9a7a9663.chunk.js.map",
-    "static/js/3.68e36f30.chunk.js": "/static/js/3.68e36f30.chunk.js",
-    "static/js/3.68e36f30.chunk.js.map": "/static/js/3.68e36f30.chunk.js.map",
+    "static/js/2.a8034c0b.chunk.js": "/static/js/2.a8034c0b.chunk.js",
+    "static/js/2.a8034c0b.chunk.js.map": "/static/js/2.a8034c0b.chunk.js.map",
+    "static/js/3.340ad222.chunk.js": "/static/js/3.340ad222.chunk.js",
+    "static/js/3.340ad222.chunk.js.map": "/static/js/3.340ad222.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.b9001e66d8a3bb63bedf521bb6ff92c6.js": "/precache-manifest.b9001e66d8a3bb63bedf521bb6ff92c6.js",
+    "precache-manifest.90b69705ab66fb9a36ac2b5370e04be8.js": "/precache-manifest.90b69705ab66fb9a36ac2b5370e04be8.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.fe62fa80.chunk.css.map": "/static/css/2.fe62fa80.chunk.css.map",
     "static/css/main.94f7b092.chunk.css.map": "/static/css/main.94f7b092.chunk.css.map",
-    "static/js/2.9a7a9663.chunk.js.LICENSE.txt": "/static/js/2.9a7a9663.chunk.js.LICENSE.txt",
+    "static/js/2.a8034c0b.chunk.js.LICENSE.txt": "/static/js/2.a8034c0b.chunk.js.LICENSE.txt",
     "static/media/Oraculo.png": "/static/media/Oraculo.2cc7b1c9.png",
     "static/media/anonimo.webp": "/static/media/anonimo.f26323d4.webp",
     "static/media/banner.jpeg": "/static/media/banner.29e1dc59.jpeg",
@@ -28,10 +28,10 @@
     "static/media/side-view-woman-getting-her-eyes-checked.jpg": "/static/media/side-view-woman-getting-her-eyes-checked.0246bc9a.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.ae2eb291.js",
+    "static/js/runtime-main.b4e2279c.js",
     "static/css/2.fe62fa80.chunk.css",
-    "static/js/2.9a7a9663.chunk.js",
+    "static/js/2.a8034c0b.chunk.js",
     "static/css/main.94f7b092.chunk.css",
-    "static/js/main.72ad3b80.chunk.js"
+    "static/js/main.4d537a60.chunk.js"
   ]
 }
